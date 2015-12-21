@@ -1,11 +1,14 @@
 package paket;
 
+import java.util.LinkedList;
+
 public class Knjiga {
 
 	private String naslov;
 	private long isbn;
 	private String izdavac;
 	private int izdanje;
+	private LinkedList<Autor> autori = new LinkedList<>();
 
 	public Knjiga() {
 		super();
